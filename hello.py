@@ -59,9 +59,16 @@ else:
 def sayHello():
     print 'hello'
 
+# python3 = print('hello')
+
 sayHello()
 
 def saySomething(something):
     print something
 
 saySomething("hello")
+
+def multiplyTwoNums(x, y):
+    return x * y
+
+print multiplyTwoNums(4,6)
